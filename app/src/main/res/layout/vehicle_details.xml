@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bitmap" />
+
+    <TextView
+        android:id="@+id/regno"
+        android:layout_width="219sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehiclename"
+        android:layout_marginLeft="6sp"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/my_button_gray"
+        android:gravity="center"
+        android:text=" Registeration No."
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/DVno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regno"
+        android:layout_marginLeft="6sp"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/my_button_gray"
+        android:gravity="center"
+        android:text=" Driving License No."
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/VehicleDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="54sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="26sp"
+        android:background="@drawable/my_button_red"
+        android:gravity="center"
+        android:text=" Vehicle Details Please "
+        android:textColor="#f9ef20"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/vehiclename"
+        android:layout_width="219sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VehicleDetails"
+        android:layout_marginLeft="6sp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/my_button_gray"
+        android:gravity="center"
+        android:text="  Vehicle Name  "
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtVehicleName"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_below="@id/VehicleDetails"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@id/vehiclename"
+        android:background="#eae8e8"
+        android:hint="Enter Vehicle name"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/edtRegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_below="@id/edtVehicleName"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="37sp"
+        android:layout_toRightOf="@id/regno"
+        android:background="#eae8e8"
+        android:hint="Enter Reg. Number "
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/edtDVnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_below="@id/edtRegNo"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@id/vehiclename"
+        android:background="#eae8e8"
+        android:hint="Enter DL number    "
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DVno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/my_button_purple"
+        android:text="DONE"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
