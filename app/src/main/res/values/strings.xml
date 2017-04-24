@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">CAR SHARe</string>
+    <string-array name="locations">
+        <item> Mohali </item>
+        <item>Chandigarh</item>
+        <item>Ropar</item>
+        <item>Jalandhar</item>
+        <item>Pathankot</item>
+        <item>Ludhiana</item>
+        <item>Jammu</item>
+        <item>Panipat</item>
+        <item>Delhi</item>
+        <item>Ambala</item>
+        <item>Kharar</item>
+        <item>Rohtak</item>
+        <item>Faridabad</item>
+
+
+    </string-array>
+
 </resources>
